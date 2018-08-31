@@ -91,7 +91,7 @@ N = int(sys.argv[1])
 sac = sac_dm(file1, N)
 sac2 = sac_dm(file2, N)
 
-fig3 = plt.figure()
+fig3 = plt.figure(figsize=(12, 6))
 
 plt.ylabel('Density of Maxima') 
 plt.xlabel('Time (ms)')
